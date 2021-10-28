@@ -13,7 +13,7 @@
 }
 .find-icons span {
   margin-top: 15px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
 }
 .recommended-friends {
@@ -39,7 +39,7 @@
 .open-chat__header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 28px;
+  margin-bottom: 18px;
   font-weight: 600;
   font-size: 12px;
 }
@@ -54,9 +54,12 @@
 
 .open-post {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .open-post__title {
   font-weight: 600;
+  font-size: 15px;
   margin-bottom: 8px;
 }
 .open-post__hashtags {
@@ -64,6 +67,9 @@
   font-weight: 600;
   font-size: 12px;
   color: rgba(0, 0, 0, 0.4);
+}
+.open-post__hashtags--xs {
+  text-transform: lowercase;
 }
 .open-post__members {
   display: flex;
@@ -93,4 +99,34 @@
   font-size: 12px;
   font-weight: 600;
   color: #ff84ce;
+}
+.open-post__photo {
+  position: relative;
+}
+.open-post__photo img {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+}
+.open-post__heart-count {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 4px;
+  border-radius: 14px;
+  display: flex;
+  font-size: 8px;
+  align-items: center;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+.open-post__heart-count i {
+  margin: 1px 3px 1px 3px;
+}
+.open-post__heart-count span {
+  margin: 1px 3px 1px 0px;
+}
+.open-post__line {
+  border-top: 0.25px solid rgba(0, 0, 0, 0.05);
+  margin: 10px 0px;
 }
