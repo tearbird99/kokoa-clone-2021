@@ -4,14 +4,19 @@
   align-items: center;
 }
 .user-component__avatar {
-  width: 56px;
-  height: 56px;
-  border-radius: 24px;
+  width: 54px;
+  height: 54px;
+  border-radius: 21.6px;
   margin-right: 13px;
+}
+.user-component__avatar--xl {
+  width: 60px;
+  height: 60px;
+  border-radius: 24px;
 }
 .user-component__title {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 17px;
 }
 .user-component__subtitle {
   margin-top: 8px;
