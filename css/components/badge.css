@@ -11,3 +11,15 @@
   font-weight: 600;
   color: white;
 }
+.red-point {
+  background-color: tomato;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 24px;
+  bottom: 20px;
+}

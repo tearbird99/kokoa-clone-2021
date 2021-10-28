@@ -19,15 +19,3 @@
   left: 14px;
   bottom: 10px;
 }
-.nav__notice {
-  background-color: tomato;
-  width: 4px;
-  height: 4px;
-  border-radius: 2px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  left: 20px;
-  bottom: 20px;
-}
