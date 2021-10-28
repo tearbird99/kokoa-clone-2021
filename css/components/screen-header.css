@@ -9,6 +9,9 @@
   font-size: 28px;
   font-weight: 600;
 }
+.screen-header__title-chats {
+  margin-bottom: 14px;
+}
 .screen-header__icons span {
   margin-left: 20px;
 }
