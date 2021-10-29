@@ -30,3 +30,10 @@ body {
 i {
   color: #2e363e;
 }
+.fa-heart {
+  color: white;
+}
+.fa-exclamation-circle {
+  color: tomato;
+  margin-left: 5px;
+}
