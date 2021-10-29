@@ -1,0 +1,35 @@
+.more-screen .icon-row {
+  margin-top: 45px;
+}
+.more-screen .icon-row .icon-row__icon span {
+  font-size: 11px;
+}
+.more-screen .icon-row__second {
+  margin-top: 75px;
+}
+
+.more-suggestions {
+  margin-top: 65px;
+  border-top: var(--main-border);
+  padding-top: 20px;
+}
+.more-suggestions__title {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 13px;
+}
+.more-suggestions .icon-row {
+  margin-top: 45px;
+}
+.more-suggestions .icon-row .icon-row__icon img {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+.more-suggestions .icon-row .icon-row__icon span {
+  font-weight: 600;
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.4);
+}
