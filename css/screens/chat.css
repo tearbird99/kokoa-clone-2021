@@ -24,6 +24,7 @@
 .message-row {
   width: 100%;
   display: flex;
+  margin-bottom: 16px;
 }
 .message-row img {
   width: 34px;
@@ -48,7 +49,6 @@
   padding: 9.5px;
   border-radius: 12px;
   border-top-left-radius: 0px;
-  font-weight: 600;
   font-size: 15px;
   margin-right: 4px;
 }
@@ -56,4 +56,18 @@
   color: rgba(0, 0, 0, 0.5);
   font-size: 9px;
   font-weight: 600;
+}
+
+.message-row--own {
+  justify-content: flex-end;
+}
+.message-row--own .message__info {
+  flex-direction: row-reverse;
+}
+.message-row--own .message__bubble {
+  background-color: var(--yellow);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 0px;
+  margin-right: 0px;
+  margin-left: 4px;
 }
