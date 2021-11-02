@@ -71,3 +71,59 @@
   margin-right: 0px;
   margin-left: 4px;
 }
+
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 15px;
+  box-sizing: border-box;
+}
+.reply .reply__column:first-child {
+  width: 10%;
+}
+.reply .reply__column:last-child {
+  width: 90%;
+  position: relative;
+}
+.reply input {
+  height: 32px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding-left: 10px;
+}
+.reply__column:first-child > i {
+  font-size: 26px;
+  opacity: 0.4;
+}
+.reply__column:last-child input {
+  background-color: rgba(182, 182, 182, 0.1);
+  width: 96%;
+}
+.reply__column:last-child > i {
+  position: absolute;
+  top: 10.5px;
+  right: 44px;
+  opacity: 0.4;
+  font-size: 22px;
+}
+.reply__column:last-child button {
+  position: absolute;
+  right: 1px;
+  top: 2px;
+  height: 31px;
+  width: 31px;
+  border-radius: 16px;
+  border: none;
+  background-color: var(--yellow);
+  padding-top: 4px;
+}
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
+}
