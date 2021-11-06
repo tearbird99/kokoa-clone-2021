@@ -90,6 +90,7 @@
   height: 70px;
   border-radius: 5px;
 }
+
 .open-post__heart-count {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
@@ -111,4 +112,23 @@
 .open-post__line {
   border-top: 0.25px solid rgba(0, 0, 0, 0.05);
   margin: 10px 0px;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
 }
