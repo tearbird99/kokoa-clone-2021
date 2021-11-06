@@ -93,7 +93,7 @@
   align-items: center;
   padding: 4px 15px;
   box-sizing: border-box;
-  transition: all 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 .reply .reply__column:first-child {
   width: 10%;
@@ -115,7 +115,7 @@
   opacity: 0.4;
 }
 .reply__column:last-child input {
-  background-color: rgba(182, 182, 182, 0.1);
+  background-color: rgb(245, 245, 245);
   width: 96%;
 }
 .reply__column:last-child > i {
@@ -154,7 +154,6 @@
 .reply:focus-within input {
   width: 93vw;
   transform: translateX(-12%) translateY(-48px);
-  background-color: white;
 }
 .reply:focus-within {
   transform: translateY(48px);
